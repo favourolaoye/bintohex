@@ -12,10 +12,9 @@ function setValue(stringtxt, i) {
 
   var hex = parseInt(value1, 2)
 
-  console.log(hex); // print a8 (correct)
+  console.log(hex); 
 
   stringtxt[i] = hex;
 
-  console.log(stringtxt[i]); // print 0 (why?)
-
+  console.log(stringtxt[i]); 
 }
